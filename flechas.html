@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dibujando con flechas</title>
+
+  </head>
+  <body>
+    <p>
+      Empecemos a dibujar :D
+    </p>
+    <canvas width="300" height="300" id="area_de_dibujo"></canvas>
+    <input type="color" id ="color" oninput="defcolor(this.value);">
+    <input type="range" id ="grosor" oninput="defgrosor(this.value);" min="1"
+    max="5" value="1">
+    <script src="eventos.js"></script>
+  </body>
+</html>
